@@ -1,7 +1,7 @@
 
 
 
-import imageio
+#import imageio
 import streamlit as st
 st.set_page_config(layout="wide")
 
@@ -11,7 +11,7 @@ st.markdown("# IDL Project")
 
 
 
-import matplotlib.image as mpimg
+#import matplotlib.image as mpimg
 #if st.sidebar.checkbox("I want to explore the data first - EDA", True, key=1):
 st.markdown("Lets look at the interactive outputs")
 file1='sample//'
