@@ -24,7 +24,7 @@ import seaborn as sns
 
 st.markdown("# IDL Project")
 
-!ls
+
 
 import matplotlib.image as mpimg
 if st.sidebar.checkbox("I want to explore the data first - EDA", True, key=1):
