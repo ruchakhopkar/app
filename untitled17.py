@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1F3DGx2E7rXuUZKljCJVPMb4fgRF5pHLB
 """
 
-!pip install streamlit
+
 
 import streamlit as st
 st.set_page_config(layout="wide")
