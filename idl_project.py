@@ -25,6 +25,9 @@ select_dept = st.sidebar.selectbox('Select an image', ('id00017', 'id00061','id0
 if select_dept=='id00017':
   filename1='sample//id00017//00033.mp4'
   vid1 = open(filename1,  'rb')
+  st.write(f'<iframe width="{100}" height="{100}" src="{filename1}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        unsafe_allow_html=True,
+    )
   vid1 = vid1.read()
   st.video(vid1)
   filename='out//id00017//00033.mp4'
