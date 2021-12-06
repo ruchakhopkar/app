@@ -25,9 +25,11 @@ select_dept = st.sidebar.selectbox('Select an image', ('id00017', 'id00061','id0
 if select_dept=='id00017':
   filename1='sample//id00017//00033.mp4'
   vid1 = open(filename1,  'rb')
+  vid1 = vid1.read()
   st.video(vid1)
   filename='out//id00017//00033.mp4'
   vid = open(filename,  'rb')
+  vid = vid.read()
   st.video(vid)
   
 
