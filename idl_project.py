@@ -1,6 +1,10 @@
 
+import sys
+import subprocess
 
-$pip install opencv
+# implement pip as a subprocess:
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+'matplotlib'])
 #import imageio
 import streamlit as st
 
