@@ -1,6 +1,6 @@
 
 
-
+$pip install opencv
 #import imageio
 import streamlit as st
 
