@@ -172,3 +172,5 @@ elif select_dept==l1[19]:
   vid = open(filename,  'rb')
   st.video(vid)
   
+print('coauthors: Rucha Khopkar, Shubhranshu Singh, Saahithya Yendluri, Kunal Dhawan')
+print('Feel free to reach us out on ruchakhopkar@gmail.com')
